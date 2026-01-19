@@ -126,7 +126,7 @@ For this first example, we will simply create a new Azure Resource Group. For th
 kubectl create ns rg-kro-aks-labs
 ```
 
-2. Create the ASO identity in the `rg-aks-labs` namespace
+2. Create the ASO identity in the `rg-kro-aks-labs` namespace
 
 ```bash
 cat <<EOF> kro-aso-credentials.yaml
